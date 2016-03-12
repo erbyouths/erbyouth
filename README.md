@@ -12,3 +12,9 @@
   1.sublime txt
   2.翻墙软件 lantern
   3.git 客户端 SourceTree
+
+
+  操作
+  1. npm install
+  2. mongods
+  2. npm start
