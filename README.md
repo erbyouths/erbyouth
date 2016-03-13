@@ -18,3 +18,9 @@
   1. npm install
   2. mongods
   2. npm start
+
+
+  window 
+  1.net start mongodb
+  进入项目跟目录
+  2.npm start
