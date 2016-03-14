@@ -1,8 +1,61 @@
+body, nav, ul, h1 {
+  margin: 0;
+  padding: 0;
+}
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #959595;
+  background-color: #ededed;
 }
 
 a {
+  text-decoration: none;
   color: #00B7FF;
+}
+
+header {
+  
+  height: 100px;
+  line-height: 100px;
+  overflow: hidden;
+  background: #333333;
+}
+nav {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+
+nav h1.descript {
+  font-size: 12px;
+  height: 13px;
+}
+
+nav .log {
+  height: 100px;
+  line-height: 100px;
+}
+
+nav .log img {
+  width: 195px;
+  height: 27px;
+}
+
+nav ul{
+  margin: 0 15px;
+  height: 100px;
+	display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li{
+  padding: 3px 5px;
+
+}
+
+.content {
+
 }
