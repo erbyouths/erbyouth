@@ -11,4 +11,13 @@ router.get('/landed', function(req, res, next) {
   res.render('landed', { title: 'erbyout landed' });
 });
 
+router.get('/about', function(req, res, next) {
+  res.render('about', { title: '关于页面' });
+});
+
+router.get('/student', function(req, res, next) {
+  res.render('student', { title: '学习历程' });
+});
+
+
 module.exports = router;

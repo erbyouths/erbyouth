@@ -15,7 +15,7 @@ var admin = require('./routes/admin');
 
 var app = express();
 
-mongoose.connect('mongodb://localhost/imooc');
+mongoose.connect('mongodb://localhost/erbyouth');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
