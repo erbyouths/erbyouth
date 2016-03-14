@@ -6,19 +6,23 @@ html
   body
     header
       nav
-        a.log(href="./")
-          img(src="/images/log.png", alt="log")
-          h1.descript 三个逗逼前端er的成长历程
-        ul
-          li
-            a(href="/") 首页
-          li
-            a(href="/about") 关于我们
-          li
-            a(href="/") 学习历程
-          li
-            a(href="/") 生活点滴
-          li
-            a(href="/") 留言板
-    .content
-      block content
+        div(class="left_nav left")
+            img(src="/images/log.png")
+            span讲述三个前端工程师的成长历程
+        div(class="left")
+          ul
+            li
+              a(href="/") 首页
+            li
+              a(href="/about") 关于我们
+            li
+              a(href="/") 学习历程
+            li
+              a(href="/") 生活点滴
+            li
+              a(href="/") 留言板
+        div(class="right")
+          form(class="searchs")
+            input(type="text" placeholder="请输入关键词" class="search_inp")
+            input(type="image" src="/images/search_ico.png" alt="Search" title="Search" class="search_ann")
+      

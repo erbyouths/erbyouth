@@ -1,11 +1,26 @@
-body, nav, ul, h1 {
-  margin: 0;
-  padding: 0;
-}
+/*公共样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,img {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal}
+ol,ul {list-style:none}
+caption,th {text-align:left}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+q:before,q:after {content:''}
+abbr,acronym { border:0}
+.left{ float:left;}
+.clear{clear: both;}
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #959595;
   background-color: #ededed;
+}
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
 }
 
 a {
@@ -13,49 +28,78 @@ a {
   color: #00B7FF;
 }
 
+
+
+
+
+/*首页样式*/
 header {
-  
+  width:100%;
   height: 100px;
-  line-height: 100px;
   overflow: hidden;
   background: #333333;
 }
 nav {
-  display: flex;
-  width: 1200px;
+  
+  width: 60%;
   margin: 0 auto;
   
 }
 
-nav h1.descript {
-  font-size: 12px;
-  height: 13px;
+nav .left_nav{
+  width:200px;
+  height:75px;
+  color:#ccc;
+  margin-right:10%;
+  font-size:13.8px;
+  padding:25px 0 0 0;
 }
 
-nav .log {
-  height: 100px;
-  line-height: 100px;
-}
 
-nav .log img {
-  width: 195px;
-  height: 27px;
-}
-
-nav ul{
-  margin: 0 15px;
-  height: 100px;
-	display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  list-style: none;
-}
 
 nav ul li{
-  padding: 3px 5px;
-
+ float:left; 
+ height:100px;
+ line-height:100px;
 }
 
-.content {
-
+nav ul li a{
+  display:block;
+  padding: 0 20px;
+  color:#fff;
 }
+
+nav ul li a:hover{
+  background:#00B7FF;
+}
+
+.search_main{
+  float:right;
+}
+
+.searchs{
+  width:210px;
+  height:30px;
+  border:1px solid #ccc;
+  -moz-border-radius: 30px;      /* Gecko browsers */
+  -webkit-border-radius: 30px;   /* Webkit browsers */
+  border-radius:30px;            /* W3C syntax */
+  margin:33px 0 0 0;
+}
+
+.search_inp{
+  width:165px;
+  height:30px;
+  line-height:30px;
+  border:none;
+  background:transparent;
+  color:#fff;
+  padding:0 0 0 15px;
+  float:left;
+}
+
+.search_ann{
+  float:left;
+  padding:7px 0 0 0;
+}
+
