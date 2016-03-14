@@ -1,9 +1,14 @@
 var express = require('express');
+var blog = require('./models/blog');
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'erbyout 首页' });
+	 blog.fetch(function(obj) {
+		 res.render('index', { title: 'erbyout 首页'});
+ 
+	 	});
+
 });
 
 /* GET home page. */
