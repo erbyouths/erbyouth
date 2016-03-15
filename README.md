@@ -16,7 +16,7 @@
 
   mac 操作
   1. npm install
-  2. mongods
+  2. mongod
   2. npm start
 
 

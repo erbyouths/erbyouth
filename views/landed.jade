@@ -1,15 +1,28 @@
-<<<<<<< HEAD
-doctype html
 html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/landed.css')
   body
-    div(class="main_landed")
-=======
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
->>>>>>> 9fdadd252117424c6023fccd782922f5efc91c25
+    div(class="dong_1")
+      img(src="/images/landed_ico.png")
+    div(class="dong_z")
+      img(src="/images/landed_ico2.png")
+    div(class="main_land")
+      div(class="main_land_title")
+        img(src="/images/log.png")
+        span ——讲述web前端工程师的成长历程
+      div(class="main_land_contant")
+        div(class="main_land_contant_left left")
+          form(class="main_land_contant_left_form")
+            <input class="number" type="text" placeholder="账号/手机号/邮箱">
+            <input class="number" type="password" placeholder="密码" >
+            <input class="but_ann" type="submit" value="登陆">
+            <input name="autolog" type="checkbox" value="1" id="autolog" tabindex="3"> 记住密码
+            span 
+              a(href="#")注册 |
+            i 
+              a(href="#")忘记密码?
+        div(class="main_land_contant_right left")
+          img(src="/images/erweima.jpg")
+          span 扫一扫 关注我们

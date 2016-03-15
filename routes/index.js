@@ -20,6 +20,7 @@ router.get('/about', function(req, res, next) {
   res.render('about', { title: '关于页面' });
 });
 
+
 router.get('/student', function(req, res, next) {
   res.render('student', { title: '学习历程' });
 });
