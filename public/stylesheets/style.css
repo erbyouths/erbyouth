@@ -41,7 +41,7 @@ header {
 }
 nav {
   
-  width: 60%;
+  width: 1200px;
   margin: 0 auto;
   
 }
@@ -50,7 +50,7 @@ nav .left_nav{
   width:200px;
   height:75px;
   color:#ccc;
-  margin-right:10%; 
+  margin-right:100px; 
   font-size:13.8px;
   padding:25px 0 0 0;
 }
@@ -97,6 +97,22 @@ nav ul li a:hover{
   padding:0 0 0 15px;
   float:left;
 
+}
+
+.land_an{
+  font-size:14px;
+  line-height:100px;
+  margin-left:20px;
+}
+
+.land_an a{
+  margin:0 0 0 10px;
+  color:#ccc;
+}
+
+.land_an a:hover{
+  text-decoration:underline;
+  color:#fff;
 }
 
 .search_ann{
