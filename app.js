@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var user = require('./models/user');
 var blog = require('./models/blog');
+// var test = require('./models/test');
 var mongoose = require('mongoose'); //引用mongoose模块
 
 
@@ -15,7 +16,7 @@ var admin = require('./routes/admin');
 
 var app = express();
 
-mongoose.connect('mongodb://localhost/imooc');
+mongoose.connect('mongodb://localhost/erbyouth');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

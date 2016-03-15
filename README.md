@@ -14,7 +14,7 @@
   3.git 客户端 SourceTree
 
 
-  操作
+  mac 操作
   1. npm install
   2. mongods
   2. npm start
@@ -24,3 +24,6 @@
   1.net start mongodb
   进入项目跟目录
   2.npm start
+
+  mongodb 数据库管理工具
+  https://www.npmjs.com/package/admin-mongo
