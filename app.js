@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var user = require('./models/user');
 var blog = require('./models/blog');
-var test = require('./models/test');
+// var test = require('./models/test');
 var mongoose = require('mongoose'); //引用mongoose模块
 
 
