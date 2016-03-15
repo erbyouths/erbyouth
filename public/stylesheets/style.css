@@ -50,7 +50,7 @@ nav .left_nav{
   width:200px;
   height:75px;
   color:#ccc;
-  margin-right:10%;
+  margin-right:10%; 
   font-size:13.8px;
   padding:25px 0 0 0;
 }
@@ -96,6 +96,7 @@ nav ul li a:hover{
   color:#fff;
   padding:0 0 0 15px;
   float:left;
+
 }
 
 .search_ann{
