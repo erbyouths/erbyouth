@@ -5,17 +5,75 @@
 	position:absolute;
 	right:18%;
 	top:35%;
+	animation:dong_1 3s normal;
+    -moz-animation:dong_1 3s normal; /* Firefox */
+    -webkit-animation:dong_1 3s normal; /* Safari and Chrome */
+    -o-animation:dong_1 3s normal; /* Opera */
 }
+
+@keyframes dong_1
+        {
+            0%   {top:-34%;}
+            80%  {top:35%;}
+            85%  {top:34%;}
+            90%  {top:35%;}
+            95%  {top:34%;}
+            100% {top:35%;}
+        }
+
+        @-moz-keyframes dong_1 /* Firefox */
+        {
+            0%   {top:-34%;}
+            80%  {top:35%;}
+            85%  {top:34%;}
+            90%  {top:35%;}
+            95%  {top:34%;}
+            100% {top:35%;}
+        }
+
+        @-webkit-keyframes dong_1 /* Safari 和 Chrome */
+        {
+            0%   {top:-34%;}
+            80%  {top:35%;}
+            85%  {top:34%;}
+            90%  {top:35%;}
+            95%  {top:34%;}
+            100% {top:35%;}
+        }
+
+        @-o-keyframes dong_1 /* Opera */
+        {
+            0%   {top:-34%;}
+            80%  {top:35%;}
+            85%  {top:34%;}
+            90%  {top:35%;}
+            95%  {top:34%;}
+            100% {top:35%;}
+        }
+
 
 .dong_z{
 	position:absolute;
 	left:20%;
 	top:33%;
+	animation:mymove 3s normal;
+    -moz-animation:mymove 3s normal; /* Firefox */
+    -webkit-animation:mymove 3s normal; /* Safari and Chrome */
+    -o-animation:mymove 3s normal; /* Opera */
 }
-
 .dong_z img{
 	width:50%;
 }
+
+
+@keyframes mymove
+        {
+            0%   {right:-35%;top:-10%;transform:rotate(180deg);}
+            100% {right:20%;top:-33%;}
+        }
+
+        
+
 
 .main_land{
 	width:660px;
