@@ -13,8 +13,18 @@ router.get('/', function(req, res, next) {
 
 /* GET home page. */
 router.get('/landed', function(req, res, next) {
-  res.render('landed', { title: 'erbyout landed' });
+  res.render('landed', { title: '登陆页面' });
 });
+
+router.get('/index', function(req, res, next) {
+  res.render('index', { title: '博客首页' });
+});
+
+/* GET home page. */
+router.get('/login', function(req, res, next) {
+  res.render('login', { title: '注册页面' });
+});
+
 
 router.get('/about', function(req, res, next) {
   res.render('about', { title: '关于页面' });
