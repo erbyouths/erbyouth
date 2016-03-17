@@ -168,17 +168,29 @@ nav ul li a:hover{
 .index_main_left_one ul{
   width:440px;
   float:left;
+  margin:40px 0 0 80px;
 }
 
 .index_main_left_one ul li{
   float:left;
   width:140px;
+  height:45px;
   text-align:center;
-  line-height:130px;
+  border-right:1px solid #ccc;
+  padding:5px 0 0 0;
 }
 
-.index_main_left_one ul li lable{
-  
+.index_main_left_one ul li i{
+  display:block;
+}
+
+
+
+.index_main_left_one ul li label{
+  display:block;
+  font-size:18px;
+  margin:10px 0 0 0;
+  color:#0099cc;
 }
 
 .index_main_left_one span{
