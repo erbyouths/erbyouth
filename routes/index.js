@@ -25,6 +25,10 @@ router.get('/login', function(req, res, next) {
   res.render('login', { title: '注册页面' });
 });
 
+router.get('/article', function(req, res, next) {
+  res.render('article', { title: '文章页面' });
+});
+
 
 router.get('/about', function(req, res, next) {
   res.render('about', { title: '关于页面' });

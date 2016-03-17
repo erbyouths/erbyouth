@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  div(class='index_main')
+    div(class='index_main_left')
+      div(class='article_main')
+        h1(class='') (node性能优化二) API粒度实践
+        label(class='ico_bq') javascript
+          div(class='sanjiao')
+        div(class='clear')
+        span 2016-03-08
+        i 访问数:513
+        img(src='/images/ico2.jpg')  
+        p 古语：“知己知彼，百战不殆”，面对性能优化，哪怕不求百战不殆，也求“死得明白”，所以在尝试进行系统性能优化之前，先得了解系统的性能瓶颈在哪，不至于使不上劲。 
+        p 我不生产知识，只是知识的搬运工，都是团队实践的总结。 
+        h5 监控选型：Grafana + Telegraf + InfluxDB
+        p 选型是团队的架构湿安叔做的，考虑到数据实时性和灵活性，选择了Grafana（下文简称Gra） 和 InfluxDB（下文简称Inf）， 与 oneapm 互补。Inf是 time-series data 类型的数据库，支持类sql语句查询，适合监控数据存储，实时分析。Telegraf 是安装于生产机的守护进程，用于埋点数据收集并转发到Gra数据库，并收集宿主机负载信息Gra 用作数据呈现，封面截图就来自Gra实践环境：
+        h5 step1：安装InfluxDB
+        p 1）下载和安装传送InfluxDB - Database Download，直接找到 Ubuntu & Debian 章节，按照提示安装，相比于apt-get方法，此法在国内特殊环境下靠谱些。 2）启动：node v4.2.3Ubuntu 14.04，15.04Express v3.4.7 ~ v4.13.3
+        div(class='article_main_bottom')
+          div(class='article_nice')
+            i(class='fa fa-thumbs-up') 
+            span 120
+          div(class='article_nice article_menny')
+            i(class='fa fa-database') 
+            span 1820
+          div(class='clear')
+    div(class='index_main_right')
+      div(class='index_main_right_one')
+        h5 文章推荐
+        a(href='/') 通过CSS3滤镜让图标变灰（全浏览器兼容）
+        a(href='/') CSS中关于vertical-align垂直对齐
+        a(href='/') XHTML与HTML的区别
+        a(href='/') angularJS中的子指令
+        a(href='/') CSS响应式布局到底是什么？
+        a(href='/') js的中文排序
+        a(href='/') jquery美化select，自定义下拉框样式
+        a(href='/') 简单理解javascript的闭包
+        a(href='/') js中常用的对象—Array的属性和方法
+        a(href='/') js中常用的对象—Math的属性和方法
+    div(class='clear')
+  div(class='index_bottom')
+    p ER逼青年前端团队博客 © 2016
+    span ER tip youth team blog
