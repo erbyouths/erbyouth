@@ -24,6 +24,3 @@
   1.net start mongodb
   进入项目跟目录
   2.npm start
-
-  mongodb 数据库管理工具
-  https://www.npmjs.com/package/admin-mongo
