@@ -214,6 +214,7 @@ nav ul li a:hover{
   border-radius:10px;            /* W3C syntax */
   padding:20px 40px;
   margin:20px 0 0 0;
+  cursor: pointer;
 }
 
 .index_main_left_two h5{
